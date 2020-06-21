@@ -1,0 +1,17 @@
+.App {
+    width: 80%;
+    margin: 20px auto;
+    .order_list {
+        li {
+            display: flex;
+            div {
+                margin-right: 30px;
+                flex: 2;
+                &:nth-child(2),
+                &:nth-child(3) {
+                    flex: 1.5;
+                }
+            }
+        }
+    }
+}
